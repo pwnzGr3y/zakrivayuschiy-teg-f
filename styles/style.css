@@ -67,7 +67,7 @@
 }
                                             /* Заголовок секций с карточками */
 .card__title {
-  font-family: var(--main-font) sans-serif;
+  font-family: var(--main-font),sans-serif;
   font-size: 18px;
   font-weight: var(--card-title-weight);
   line-height: 100%;
