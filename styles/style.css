@@ -116,6 +116,7 @@
   opacity: 0.5;
   text-shadow: -1px 0 rgb(255,255,255), 0 1px rgb(255,255,255), 1px 0 rgb(255,255,255),
   0 -1px rgb(255,255,255);
+  z-index: 1;
 }
 
 @supports ((text-stroke: 1px rgb(0, 0, 0)) or (-webkit-text-stroke: 1px rgb(0, 0, 0))) {
@@ -320,11 +321,11 @@ dialog:not([open]) {
 }
 
 .brightness {
-  filter: brightness(110%);
+  filter: brightness(80%);
 }
 
 .contrast {
-  filter: contrast(200%);
+  filter: contrast(100%);
 }
 
 .grayscale {
@@ -336,11 +337,11 @@ dialog:not([open]) {
 }
 
 .invert {
-  filter: invert(1);
+  filter: invert(13%);
 }
 
 .blur {
-  filter: blur(2px);
+  filter: blur(1px);
 }
 
 .saturate-contrast {
