@@ -83,18 +83,18 @@
   font-size: 18px;
   line-height: 21px;
 }
-
+                                              /*контейнер контента карточки */
 .card__content {
   position: relative;
   border-bottom: 2px solid rgb(0, 0, 0);
 }
-
+                                            /*изображение в карточке */
 .card__image {
   width: 100%;
   display:block;
   object-fit: cover;
 }
-
+                                              /*действие карточки */
 .card__action {
   display: flex;
   align-items: center;
@@ -102,7 +102,7 @@
   width: fit-content;
   gap: 5px;
 }
-
+                                            /*метка карточки */
 .card__label {
   font-family: var(--accent-font),sans-serif;
   position: absolute;
@@ -125,13 +125,13 @@
     text-shadow: none;
   }
 }
-
+                                        /*базовые стили для кнопки */
 .button {
   background-color: rgb(255, 255, 255);
   font-family: var(--accent-font),sans-serif;
   border: 2px solid rgb(0, 0, 0);
 }
-
+                                          /*анимации при наведении на кнопку */
 .button::before {
   background-color: rgb(255, 255, 255);
   display: inline-block;
@@ -144,7 +144,7 @@
   left: 0;
   top: 0;
 }
-
+                                              /*стили для кнопки при наведении */
 .button:focus-visible {
   box-shadow: 2px 2px 0 0 rgb(0, 0, 0);
   transition: box-shadow 0.3s ease-in-out;
@@ -168,14 +168,14 @@
   text-align: center;
   color: rgb(0, 0, 0);
 }
-                /* кнопка лайк */
+                          /* кнопка лайк */
 .card__like-button {
   padding: 8px;
   max-height: 38px;
   min-width: 130px;
   position: relative;
 }
-                /* кнопка лайк сердечко */
+                         /* кнопка лайк сердечко */
 .card__icon-button {
   display: inline-block;
   background-color: transparent;
@@ -300,7 +300,7 @@ dialog:not([open]) {
   opacity: 0;
   pointer-events: none;
 }
-
+/* *** Кнопка закрытия диалога *** */
 .close {
   width: 100%;
   grid-column: span 2;
@@ -309,17 +309,6 @@ dialog:not([open]) {
   line-height: 13px;
   max-height: 38px;
   position: relative;
-}
-
-.visually-hidden {
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  overflow: hidden;
-  clip-path: inset(0, 0, 0, 0);
-  position: absolute;
 }
 
 ::backdrop {
@@ -358,56 +347,3 @@ dialog:not([open]) {
   filter: saturate(150%) contrast(70%);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.sepia {
-  filter: sepia(60%);
-}
-
-.brightness {
-  filter: brightness(0.4);
-}
-
-.contrast {
-  filter: contrast(100%);
-}
-
-.grayscale {
-  filter: grayscale(50%);
-}
-
-.hue-rotate {
-  filter: hue-rotate(90deg);
-}
-
-.invert {
-  filter: invert(20%);
-}
-
-.blur {
-  filter: blur(5px);
-}
-
-.saturate-contrast {
-  filter: saturate(150%);
-}
