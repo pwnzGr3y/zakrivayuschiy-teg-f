@@ -33,14 +33,14 @@
 }
                                              /* Заголовок шапки */
 .header__title {
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font), fantasy;
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   font-weight: 400;
   line-height: 100%;
 }
                                             /*Подзаголовок шапки */
 .header__subtitle {
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font), fantasy;
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   font-weight: 400;
   line-height: 100%;
@@ -104,7 +104,7 @@
 }
                                             /*метка карточки */
 .card__label {
-  font-family: var(--accent-font),sans-serif;
+  font-family: var(--accent-font),fantasy;
   position: absolute;
   color: rgb(0, 0, 0);
   top: 25px;
@@ -129,7 +129,7 @@
                                         /*базовые стили для кнопки */
 .button {
   background-color: rgb(255, 255, 255);
-  font-family: var(--accent-font),sans-serif;
+  font-family: var(--accent-font),fantasy;
   border: 2px solid rgb(0, 0, 0);
 }
                                           /*анимации при наведении на кнопку */
@@ -260,7 +260,7 @@
   justify-content: center;
   align-items: baseline; flex-wrap: wrap;
   gap: 8px;
-  font-family: var(--accent-font),sans-serif;
+  font-family: var(--accent-font),fantasy;
   padding: 15px;
   font-size: 14px;
   line-height: 90%;
@@ -275,7 +275,7 @@
 }
 
 .dialog__text {
-  font-family: var(--accent-font),sans-serif;
+  font-family: var(--accent-font),fantasy;
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
