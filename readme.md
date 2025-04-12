@@ -1,1 +1,2 @@
-https://github.com/pwnzGr3y/zakrivayuschiy-teg-f
+https://pwnzgr3y.github.io/zakrivayuschiy-teg-f/
+  бибоп
