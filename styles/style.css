@@ -111,7 +111,6 @@
   right: calc(13px + (25 - 13) * ((100% - 375px) / (700 - 375)));
   font-size: 14px;
   line-height: 14px;
-  -webkit-text-stroke: 1px rgb(255,255,255);
   mix-blend-mode: hard-light;
   opacity: 0.5;
   text-shadow: -1px 0 rgb(255,255,255), 0 1px rgb(255,255,255), 1px 0 rgb(255,255,255),
@@ -131,6 +130,7 @@
   background-color: rgb(255, 255, 255);
   font-family: var(--accent-font),fantasy;
   border: 2px solid rgb(0, 0, 0);
+  transition: box-shadow 0.3s ease;
 }
                                           /*анимации при наведении на кнопку */
 .button::before {
@@ -148,7 +148,6 @@
                                               /*стили для кнопки при наведении */
 .button:focus-visible {
   box-shadow: 2px 2px 0 0 rgb(0, 0, 0);
-  transition: box-shadow 0.3s ease-in-out;
   outline: none;
 }
 
@@ -275,7 +274,7 @@
   width: 21px;
 
   @media (width <= 375px) {
-    width: 21px;
+    width: 28px;
   }
 }
 
@@ -286,7 +285,7 @@
   text-transform: uppercase;
 }
 
-#dialog-id svg {
+.dialog-icon {
   width: 39px;
 }
 
